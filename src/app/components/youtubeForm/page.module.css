@@ -1,0 +1,11 @@
+.formContainer {
+  @apply h-screen flex flex-col justify-center items-center gap-3 bg-slate-400;
+}
+
+.input {
+  @apply rounded-md pl-2 outline-none border-2 border-yellow-300;
+}
+
+.button {
+  @apply bg-yellow-300 p-2 rounded-md text-slate-700;
+}
