@@ -1,11 +1,15 @@
 .formContainer {
-  @apply h-screen flex flex-col justify-center items-center gap-3 bg-slate-400;
+  @apply h-screen flex flex-col justify-center items-center gap-3;
 }
 
 .input {
-  @apply rounded-md pl-2 outline-none border-2 border-yellow-300;
+  @apply rounded-md pl-2 outline-none border-2 border-yellow-300 w-80;
 }
 
 .button {
   @apply bg-yellow-300 p-2 rounded-md text-slate-700;
+}
+
+.error {
+  @apply text-red-700 text-[12px] text-left;
 }
